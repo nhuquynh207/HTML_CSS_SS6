@@ -1,0 +1,92 @@
+body{
+    background-color: #F0F9FF;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    background-color: #CCFBF1;
+    color:#0F766E;
+    text-align: center;
+    
+}
+.menu{
+    background-color: #E0F2FE;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+}
+a{
+    text-decoration: none;
+    color:#0284C7;
+    font-size: 18px;
+}
+a:hover{
+    background-color:#0284C7;
+    color:white ;
+}
+.card{
+    background-color: #fff;
+    font-size: 18px;
+}
+.card h2{
+    color: #155E75;
+}
+.end{
+    background-color:#0F766E;
+    color: aliceblue;
+    text-align: center;
+}
+li:hover{
+    background-color: #DBEAFE;
+    color: #429CEA;
+}
+table{
+    border-collapse: collapse;
+    width:100% ;
+
+}
+th{
+    background-color: #BAE6FD;
+    color: #075985;
+
+}
+tr:hover{
+    background-color:#E0F2FE ;
+}
+.choice{
+    background-color:#F8FAFC ;
+    text-align: center;
+    font-size: 18px;
+}
+.field{
+    color:#134E4A ;
+    font-weight: bolder;
+}
+input{
+    font-size: 18px;
+}
+input:hover{
+    background-color: #ECFEFF;
+}
+select,textarea{
+    font-size:18px;
+}
+textarea:hover{
+    background-color: #ECFEFF;
+}
+select:hover{
+    background-color: #ECFEFF;
+}
+.button{
+    background-color: #1ca196;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #0F766E;
+}
