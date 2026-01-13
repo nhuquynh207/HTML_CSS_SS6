@@ -1,92 +1,114 @@
 body{
-    background-color: #F0F9FF;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f9ff;
+    color: #1f2937;
+    font-size: 18px;
 }
-.page{
-    display: flex;
-    flex-direction: column;
-}
-.title{
-    background-color: #CCFBF1;
-    color:#0F766E;
+.h1{
     text-align: center;
-    
+    color:#0f766e ;
+    background-color: #ccfbf1;
+    font-size: 32px;
 }
 .menu{
-    background-color: #E0F2FE;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    gap:10px;
-
-}
-a{
-    text-decoration: none;
-    color:#0284C7;
-    font-size: 18px;
-}
-a:hover{
-    background-color:#0284C7;
-    color:white ;
-}
-.card{
-    background-color: #fff;
-    font-size: 18px;
-}
-.card h2{
-    color: #155E75;
-}
-.end{
-    background-color:#0F766E;
-    color: aliceblue;
+    background-color: #e0f2fe;
     text-align: center;
 }
-li:hover{
-    background-color: #DBEAFE;
-    color: #429CEA;
+.menu a{
+    color: #0369a1;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu a:hover{
+    color: #ffffff;
+    background-color: #0284c7;
+}
+h2{
+    color: #155e75;Ơ
+}
+.service-item{
+   color: #0f172a;
+}
+.service-item:hover{
+    color: #1e40af;
+    background-color: #dbeafe;
 }
 table{
     border-collapse: collapse;
-    width:100% ;
-
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 14px;
 }
 th{
-    background-color: #BAE6FD;
+    background-color: #bae6fd;
     color: #075985;
+}
+td {
+    background-color: #f8fafc;
+}
 
+th,
+td {
+    border: 1px solid #475569;
+    padding: 20px;
 }
-tr:hover{
-    background-color:#E0F2FE ;
+
+tr:hover td {
+    background-color: #e0f2fe;
 }
-.choice{
-    background-color:#F8FAFC ;
+
+.section {
+    background-color: #ffffff;
+}
+
+.section form {
+    background-color: #f8fafc;
     text-align: center;
+}
+
+.section form label {
+    display: block;
+    color: #134e4a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section form input,
+.section form select,
+.section form textarea {
+    display: inline-block;
     font-size: 18px;
 }
-.field{
-    color:#134E4A ;
-    font-weight: bolder;
+
+.section form input:focus,
+.section form select:focus,
+.section form textarea:focus {
+    background-color: #ecfeff;
 }
-input{
-    font-size: 18px;
+
+.section form textarea::placeholder {
+    color: #64748b;
 }
-input:hover{
-    background-color: #ECFEFF;
-}
-select,textarea{
-    font-size:18px;
-}
-textarea:hover{
-    background-color: #ECFEFF;
-}
-select:hover{
-    background-color: #ECFEFF;
-}
-.button{
-    background-color: #1ca196;
-    color: #fff;
-    font-weight: bolder;
+
+.section form input[type="submit"] {
+    background-color: #0ea5a4;
+    color: white;
     font-size: 20px;
+    font-weight: bold;
 }
-button:hover{
-    background-color: #0F766E;
+
+.section form input[type="submit"]:hover {
+    background-color: #0f766e;
+}
+
+.footer {
+    background-color: #0f766e;
+    color: #f0fdfa;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer p {
+    margin: 4px 0;
 }
